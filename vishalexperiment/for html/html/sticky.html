@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: blueviolet;
+            background-color: rgba(224, 146, 132, 1);
+        }
+        #Fake{
+            transition-property: all;
+            transition-duration: 1s;
+            animation: forwards;
+            animation-name: ANIME;
+            animation-duration: 10s;
+            animation-timing-function: ease;
+        }
+        @keyframes ANIME {
+            0%{
+                width: 100px;
+                height: 100px;
+                color: aqua;
+                border: 2px solid red;
+                background-color: blue;
+
+
+            }
+            50%{
+               transform: translate3d(100px,1000px, 1000px);
+               background-color: aliceblue;
+               width: 1000px;
+            }
+        }
+        #Fake:hover{
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main"><h1> 
+            HElllo</h1>
+        <div id="Fake">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam porro impedit fugit optio laborum voluptatum totam. Facilis quod quas sint sunt. Asperiores minus alias deleniti? Velit eius dolores repudiandae esse.
+        </div>
+        <div id="FAke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, voluptas. Illum quae explicabo optio vitae, quis omnis ea fugiat eligendi. Officia eius accusamus tempore rem, consectetur asperiores et quis placeat.</div>
+        <div id="FAKe"></div>
+        <div id="FAKE"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid{
+            display: grid;
+            grid-template-rows: 200px 200px 200px 200px;
+            grid-template-columns: 200px 200px;
+            border: 2px solid black;
+            height: auto;
+        }
+        div>div{
+            border: 2px solid tomato;
+            background-color: aquamarine;
+            transform: rotate(100px);
+            rotate: 100px;
+         
+        }
+        #item2{grid-area: 1 /1 /2 / 3;
+        
+        background-color: black;}
+    </style>
+</head>
+<body>
+    
+    <div class="grid">
+        <div id="item1">1</div>
+        <div id="item2">2</div>
+        <div id="item3">3</div>
+    </div>
+</body>
+</html>

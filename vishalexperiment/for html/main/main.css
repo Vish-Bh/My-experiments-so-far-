@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    z-index: 10000;
+    font-size: 83px;
+    position: absolute;
+    color: bisque;
+    top: 18px;
+    left: 255px;
+    text-align: center;
+    font-family: cursive;
+
+}
+body{
+    height: 800px;
+    width: 450px;
+}
+img{
+    z-index: 10;
+    position: absolute;
+    top: 219px;
+    height: 200px;
+    width: 200px;
+    left: 7px;
+    animation: ani 15s linear infinite ;
+}
+@keyframes ani {
+    from{
+        transform: rotate(0deg);
+    }    
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.white{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    width: 1000vh;
+    z-index: 2;
+    background-color: white;
+}
+.main{
+    position: absolute;
+    top: 0;
+    left: 225px;
+    width: 170vh;
+    z-index: 10;
+    background-image: linear-gradient(45deg,#FF671F,rgb(153, 153, 153), #046A38 );
+
+}
+.orange{
+    width: 10vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #FF671F;
+    z-index: 1;
+}
+.green{
+    width: 11.5vh;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 146px;
+    background-color: #046A38;
+}
+p{
+    z-index: 10001;
+font-size: large;
+color: black;
+}

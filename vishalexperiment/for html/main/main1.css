@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+}
+
+div>div {
+    display: inline-block;
+    height: 100%;
+}
+
+#contain {
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.main1 {
+    width: 20%;
+    background-image: url(https://w0.peakpx.com/wallpaper/269/451/HD-wallpaper-india-army-vibrant-blue-color-cricket-culture-chakra-indian-colours.jpg);
+    height: 100%;
+    background-size:contain;
+    
+    background-size: cover;
+    background-position-x: -42px;
+
+}
+
+.main2 {
+    width: 80%;
+}
+
+#flag1 {
+    background-color: #FF671F;
+    width: 33.33%;
+    position: relative;
+}
+
+#flag2 {
+    background-color: white;
+    width: 33.33%;
+    position: relative;
+    left: -2.3%;
+}
+
+#flag4 {
+    background-image: url(download.png);
+    position: relative;
+    animation: ani 35s ease-out infinite;
+    top: 36%;
+    width: 140px;
+    z-index: 2;
+    height: 140px;
+    /* left: -6.2%; */
+    margin: auto;
+    left: -27%;
+}
+
+@keyframes ani {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.main2 {
+    /* text-shadow: 1px 1px 1px rgb(94, 92, 92); */
+    background-image: url(12q.png);
+    background-position: center;
+    background-size: cover;
+    /* filter: grayscale(100%); */
+    
+}
+
+
+#greeting {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-image: url(1.png);
+    background-size: contain;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#maybe_img {
+    position: relative;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+}
+
+.greeting,
+.greeting2 {
+    font-family: cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 0 118px;
+    height: 41%;
+    background-clip: text;
+    /* color: tra; */
+}
+
+.greeting3 {
+    background-image: url(1.png);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: -44px;
+    right: -3px;
+    z-index: 5;
+    height: 100px;
+
+}
+
+#content {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 20.4%;
+    
+}
+#id1, #id2, .footer{    position: absolute;
+    top: 65px;
+    left: 8px;
+    height: 402px;
+    width: 635px;
+    color: black;
+    font-size: 22px;
+    background-image: url(1.png);
+    background-size: contain;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    
+}
+#id2{
+    font-size: 60px;
+    width: 350px;
+    height: 200px;
+
+}
+.bottom{
+    position: absolute;
+    bottom: -34px;
+    right: 169px;
+    width: 500px;
+    height: 200px;
+}
+.footer{
+    position: absolute;
+    left: 1100px;
+    top: 607px;
+    z-index: 10000;
+    font-size: 50px;
+    width: 500px;}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="main1.css">
+</head>
+
+<body>
+   <div id="contain">
+      <div class="main1" id="Flag">
+         
+
+      </div>
+      <div class="main2 " id="Content">
+         <div id="greeting">
+            <div class="greeting"><b> Celebrating</b></div>
+            <div class="greeting2"><b>Independence Day</b>
+               <div class="greeting3">77 <sup>th</sup>
+                  <div></div>
+               </div>
+               <div id="content">
+
+                  <b>
+                     <span id="id1">
+                        On August 15, we commemorate the historical day when India gained Independence from the British
+                        rule in 1947. This Day marks the dawn of a new era of freedom, democracy, and national pride.
+                        Its is a time to honor the sacrifices of our freedom fighters and to reflect on the values that
+                        define our great nation.
+
+                        Independence Day is a testament to India's unity in diversity. From the soring Himalayas to the
+                        vast deserts of Rajasthan, and from the bustling streets of Mumbai to the serene backwaters of
+                        kerala our nation is a vibrant mosaic of cultures, languages, and tradtions. This day reminds us
+                        of the strength and the beauty found in our diversity.
+                     </span>
+              
+                  </b>
+
+               </div>
+            </div>
+         </div>
+</body>
+<div class="footer">
+    JAI HAND!
+</div>
+</html>

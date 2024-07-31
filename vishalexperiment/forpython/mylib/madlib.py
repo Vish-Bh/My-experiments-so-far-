@@ -1,0 +1,12 @@
+def mad_libs():
+    animal=input('Enter a animal name \n')
+    verb=input('Enter a verb \n')
+    adjective=input('Enter an adjective \n')
+    person=input('Enter a persons name \n')
+    time=input('Enter a Time  ex Morning, afternoon, etc \n')
+    place=input('Enter a place \n')
+    evil=input('Enter a Evil person name \n')
+    reason=input('Enter a reason why you might be mad at '+ animal+ '\n')
+    justice=input('What would u do to puish that fellow?  \n')
+    print(f'Today a saw a {adjective} { animal} who was {verb} arounding in the {place} at {time} . But at that time a evil person named{evil} got mad at the {adjective}  {animal} for taking his {reason} and decided to {justice} that {adjective} fellow.')
+mad_libs()

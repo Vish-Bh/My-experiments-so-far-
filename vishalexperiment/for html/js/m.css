@@ -1,0 +1,19 @@
+button{
+    background-image:linear-gradient( to right, rgb(153, 62, 62) , rgb(10,232,12));
+
+    color: white;
+    height: 100px;  
+    transition: background-image ;
+    transition-duration: 10s;
+    width: 100px;
+}
+body{
+    display: flex;
+    /* fle */
+}
+#id1:hover{
+    background-image: linear-gradient(to right, rgb(10,232,12), rgb(153,62,62));
+    cursor: pointer;
+
+}
+#id1:on
